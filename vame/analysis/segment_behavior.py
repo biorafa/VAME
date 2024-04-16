@@ -52,7 +52,7 @@ def behavior_segmentation(config, model_name=None, cluster_method='kmeans', n_cl
 
     files = []
     if cfg['all_data'] == 'No':
-        all_flag = input("Do you want to qunatify your entire dataset? \n"
+        all_flag = input("Do you want to quantify your entire dataset? \n"
                          "If you only want to use a specific dataset type filename: \n"
                          "yes/no/filename ")
     else:
